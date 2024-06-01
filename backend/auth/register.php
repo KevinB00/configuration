@@ -23,7 +23,7 @@ try {
     setcookie("userId", $_SESSION['userId'], 0, '/'); // Almacenar el userId en una cookie en el navegador
 
     // Cambia la url a landing
-    header('Location: http://localhost:5173/');
+    header('Location: http://ec2-34-228-37-255.compute-1.amazonaws.com');
 
     // Cierra la conexión y la query
     $db = null;
