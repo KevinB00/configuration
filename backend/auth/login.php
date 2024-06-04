@@ -1,7 +1,7 @@
 <?php
 include '../variables.php';
 
-$origin = "http://ec2-44-220-135-30.compute-1.amazonaws.com";
+$origin = "http://ec2-3-84-151-13.compute-1.amazonaws.com";
 
 header("Content-type: application/json;charset=utf-8");
 header("Access-Control-Allow-Origin: $origin");
