@@ -2,7 +2,7 @@
 include '../../variables.php';
 
 header("Content-type: application/json;charset=utf-8");
-header("Access-Control-Allow-Origin: http://ec2-3-84-151-13.compute-1.amazonaws.com");
+header("Access-Control-Allow-Origin: http://ec2-107-21-130-53.compute-1.amazonaws.com");
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS");
 header("Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization");
 header("Access-Control-Allow-Credentials: true");
